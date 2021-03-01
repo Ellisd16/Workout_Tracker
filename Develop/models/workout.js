@@ -43,4 +43,9 @@ const workoutSchema = new Schema({
         }
     }
     ]
-})
+});
+
+const Workout = mongoose.model("Workout", workoutSchema);
+
+//now we can export workout to index.js
+module.exports = Workout;
