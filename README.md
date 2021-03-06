@@ -16,4 +16,4 @@ The app runs perfectly fine on localhost, but the database is having trouble con
 
 ## Heroku Links
 
-https://glacial-anchorage-52640.herokuapp.com/
+https://glacial-badlands-49886.herokuapp.com/
