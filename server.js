@@ -8,8 +8,8 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+//changed budget to workouttracker on line 12
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkoutTracker", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
